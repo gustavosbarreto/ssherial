@@ -1,0 +1,5 @@
+package: .
+import:
+- package: github.com/gliderlabs/ssh
+  version: ~0.1.1
+- package: github.com/pkg/term

@@ -1,0 +1,25 @@
+hash: af9f9b7ddf26829152d1dbe22775d3534d9bba866e2fcca0131271e53ad3d9f4
+updated: 2018-06-20T09:54:02.677670245-03:00
+imports:
+- name: github.com/anmitsu/go-shlex
+  version: 648efa622239a2f6ff949fed78ee37b48d499ba4
+- name: github.com/gliderlabs/ssh
+  version: d3a6756290240931faaf90ec97ddd5d9290623d8
+- name: github.com/pkg/term
+  version: cda20d4ac917ad418d86e151eff439648b06185b
+  subpackages:
+  - termios
+- name: golang.org/x/crypto
+  version: 1a580b3eff7814fc9b40602fd35256c63b50f491
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - internal/chacha20
+  - poly1305
+  - ssh
+- name: golang.org/x/sys
+  version: 79b0c6888797020a994db17c8510466c72fe75d9
+  subpackages:
+  - unix
+testImports: []
